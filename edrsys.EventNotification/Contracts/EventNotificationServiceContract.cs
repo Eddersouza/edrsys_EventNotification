@@ -28,11 +28,6 @@ namespace edrsys.EventNotification.Contracts
         bool HasWarnings { get; }
 
         /// <summary>
-        /// Object is Valid.
-        /// </summary>
-        bool IsValid { get; }
-
-        /// <summary>
         /// Get Error Event Notifications.
         /// </summary>
         /// <returns>List of Error Event Notifications.</returns>

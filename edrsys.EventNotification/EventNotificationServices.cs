@@ -44,11 +44,6 @@ namespace edrsys.EventNotification
             && NotificationEntity.EventNotification.HasWarnings;
 
         /// <summary>
-        /// Object is Valid.
-        /// </summary>
-        public bool IsValid => !HasErrors && !HasWarnings;
-
-        /// <summary>
         /// Get Error Event Notifications.
         /// </summary>
         /// <returns>List of Error Event Notifications.</returns>
